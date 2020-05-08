@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.SecKillMapper">
+
+    <insert id="insertOrder">
+        insert into `order`() vaules()
+    </insert>
+
+    <update id="updateStock" >
+        update goods set goods_number =goods_number-1 where goods_id=#{goods_id} and goods_number>0
+    </update>
+
+
+
+
+
+
+
+
+
+
+
+</mapper>
